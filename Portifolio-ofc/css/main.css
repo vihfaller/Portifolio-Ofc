@@ -1,0 +1,36 @@
+@import url(base.css);
+@import url(components.css);
+@import url(contato.css);
+@import url(home.css);
+@import url(layout.css);
+@import url(mediaquerry.css);
+@import url(reset.css);
+
+footer{
+    padding: 40px 4%;
+    box-shadow: 0 0 40px 10px #ffffff1d;     /* nossa linha sombreada */
+}
+
+footer .flex{
+    justify-content: space-between;
+}
+
+footer .line-footer{
+    padding: 20px 0;
+}
+
+.borda{
+    border-top: 2px solid rgb(192, 0, 192);
+}
+
+footer .line-footer p i{
+    color: rgb(192, 0, 192);
+    font-size: 22px;
+    padding-right: 10px;
+    
+}
+
+footer .line-footer p a{
+    color: #fff;
+    text-decoration: none;
+}

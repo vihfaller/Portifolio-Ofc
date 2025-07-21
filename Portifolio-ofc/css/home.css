@@ -1,0 +1,116 @@
+section.topo-do-site .flex {
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+
+.topo-do-site h1 {
+    color: #fff;
+    font-size: 42px;
+    line-height: 40px;
+}
+
+.topo-do-site .txt-topo-site h1 span {
+    color: rgb(192, 0, 192);
+}
+
+.topo-do-site .txt-topo-site p {
+    color: #fff;
+    margin: 40px 0;
+}
+
+.topo-do-site .img-topo-site img {
+    position: relative;
+    animation: flutuar 2s ease-in-out infinite alternate;
+}
+
+#titulo-carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    height: 15vh;
+    color: white;
+}
+
+#titulo-carousel span {
+    color: rgb(192, 0, 192);
+}
+
+@keyframes flutuar {
+    0% {
+        top: 0;
+    }
+    100% {
+        top: 30px;
+    }
+}
+
+/* HOME - Especialidades */
+.especialidades .especialidades-box {
+    width: 100%;
+    color: white;
+    padding: 40px;
+    border: 2px solid white;
+    border-radius: 20px;
+    transition: 0.2s;
+    margin-top: 0;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+
+.especialidades .especialidades-box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.475);
+}
+
+.especialidades .especialidades-box i {
+    font-size: 70px;
+    color: rgb(192, 0, 192);
+}
+
+.especialidades .especialidades-box h3 {
+    font-size: 28px;
+    margin: 15px 0;
+}
+
+section.sobre .flex {
+    align-items: center;
+    gap: 60px;
+}
+
+.sobre .txt-sobre {
+    color: #fff;
+}
+
+.sobre .txt-sobre h2 {
+    font-size: 40px;
+    line-height: 40px;
+    margin-bottom: 30px;
+}
+
+.sobre .txt-sobre h2 span {
+    color: rgb(192, 0, 192);
+    display: block;
+}
+
+.sobre .txt-sobre p {
+    margin: 20px 0;
+    text-align: justify;
+}
+
+/* CONTATO - Formulário */
+section.formulario {
+    padding: 200px 10%;
+}
+
+.formulario .interface {
+    box-shadow: 0 0 10px 10px #262626;
+    border-radius: 10px;
+    flex-direction: column;
+    gap: 10px;
+    width: 25vw;
+    height: 90vh;
+}

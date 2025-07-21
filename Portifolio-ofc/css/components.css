@@ -1,0 +1,195 @@
+.logo {
+    font-family: 'Pacifico';
+}
+
+/* Header */
+header {
+    padding: 40px 4%;
+    box-shadow: 0 0 40px 10px #ffffff1d;
+}
+
+header > .interface {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header a {
+    color: #7d7d7d;
+    display: inline-block;
+}
+
+header nav.menu-desktop a:hover {
+    color: #fff;
+    transform: scale(1.2);
+}
+
+header nav.menu-desktop ul li {
+    display: inline-block;
+    padding: 0 40px;
+}
+
+/* Menu Mobile */
+.btn-abrir-menu i {
+    color: rgb(192, 0, 192);
+    font-size: 40px;
+}
+
+.menu-mobile {
+    background-color: rgb(28, 28, 28);
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 99999;
+    width: 0%;
+    overflow: hidden;
+    transition: 0.4s;
+}
+
+.menu-mobile.abrir-menu {
+    width: 70%;
+}
+
+.menu-mobile.abrir-menu .overlay-menu ~ .overlay-menu {
+    display: block;
+}
+
+.menu-mobile .btn-fechar {
+    padding: 20px 5%;
+}
+
+.menu-mobile .btn-fechar i {
+    color: rgb(192, 0, 192);
+    font-size: 30px;
+}
+
+.menu-mobile nav ul {
+    text-align: right;
+}
+
+.menu-mobile nav ul li a {
+    color: white;
+    font-size: 20px;
+    font-weight: 200;
+    padding: 20px 8%;
+    display: block;
+}
+
+.menu-mobile nav ul li a:hover {
+    background-color: rgb(192, 0, 192);
+    color: rgb(28, 28, 28);
+}
+
+.overlay-menu {
+    background-color: rgba(0, 0, 0, 0.856);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 88888;
+    display: none;
+}
+
+/* Botões sociais */
+.btn-social button {
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    border: none;
+    background-color: rgb(192, 0, 192);
+    font-size: 22px;
+    cursor: pointer;
+    margin: 0 5px;
+    transition: 0.6s;
+}
+
+/* Formulário */
+form {
+    max-width: 500px;
+    margin: 80px auto 40px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 8px;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    background-color: #242424;
+    border: 0;
+    outline: 0;
+    padding: 10px 15px;
+    border-radius: 15px;
+    color: #fff;
+    font-size: 18px;
+}
+
+form textarea {
+    resize: none;
+}
+
+form .btn-enviar {
+    margin-top: 20px;
+    text-align: center;
+}
+
+form .btn-enviar input {
+    width: 120px;
+    background-color: rgb(192, 0, 192);
+    color: black;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+/* Footer */
+footer {
+    padding: 40px 4%;
+    box-shadow: 0 0 40px 10px #ffffff1d;
+}
+
+footer .flex {
+    justify-content: space-between;
+}
+
+footer .line-footer {
+    padding: 20px 0;
+}
+
+footer .line-footer p i {
+    color: rgb(192, 0, 192);
+    font-size: 22px;
+    padding-right: 10px;
+}
+
+footer .line-footer p a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.borda {
+    border-top: 2px solid rgb(192, 0, 192);
+}
+
+/* Carrossel */
+.carrosel {
+    width: 60vw;
+    height: 80vh;
+}
+
+.carouselExample {
+    width: 100%;
+    height: 100%;
+}
+
+.carrosel img {
+    width: 100%;
+    height: 100%;
+}

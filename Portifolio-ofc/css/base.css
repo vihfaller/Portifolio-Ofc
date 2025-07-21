@@ -1,0 +1,27 @@
+body {
+    background-color: black;
+    height: 100vh;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2.titulo {
+    margin-bottom: 20px;
+    color: white;
+    font-size: 38px;
+    text-align: center;
+}
+
+h2.titulo span {
+    color: rgb(192, 0, 192);
+}
+
+a {
+    text-decoration: none;
+    transition: 0.2s;
+}

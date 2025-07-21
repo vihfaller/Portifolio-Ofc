@@ -1,0 +1,36 @@
+@media screen and (max-width: 1020px) {
+    .flex {
+        flex-direction: column-reverse;
+    }
+
+    .menu-desktop,
+    .btn-contato {
+        display: none;
+    }
+
+    section.topo-do-site .flex {
+        gap: 40px;
+    }
+
+    section.topo-do-site {
+        padding: 40px 8%;
+    }
+
+    .topo-do-site h1 {
+        font-size: 30px;
+    }
+
+    section.sobre {
+        padding: 80px 8%;
+    }
+
+    .sobre .txt-sobre h2 {
+        font-size: 34px;
+        line-height: 35px;
+        text-align: center;
+    }
+
+    .btn-social {
+        text-align: center;
+    }
+}
