@@ -17,18 +17,6 @@ Desenvolver um portfólio visualmente atraente e funcional que simule a presenç
 - **Preto**: representa tecnologia, elegância e modernidade. É usado como cor base para destacar os elementos visuais do projeto.
 - **Rosa**: representa o toque feminino e criativo da persona fictícia, trazendo leveza e contraste ao design.
 
-## 📁 Estrutura de Pastas
-
- portfólio-ficção/
-├── índice
-├─
-│
-├── /
-│ └
-├── /
-│ ├── eu sou
-│ └─
-
 
 ## 🧠 Aprendizados
 
@@ -39,14 +27,10 @@ Durante o desenvolvimento deste projeto, foram praticados conceitos como:
 - Uso de transições e animações em CSS
 - Manipulação de elementos com JavaScript
 
-## 📸 Prévia do Projeto
-
-> *Adicione aqui uma imagem do projeto ou link de visualização (ex: GitHub Pages).*
-
 ## 📌 Status
 
 🚧 Projeto em desenvolvimento...
 
 ---
 
-Desenvolvido como exercício criativo e prático por **[Seu Nome ou Usuário GitHub]**.
+Desenvolvido como exercício criativo e prático por **Vitória Faller Bier**.
